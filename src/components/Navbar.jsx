@@ -17,7 +17,11 @@ export default function Navbar() {
           <div className="relative mr-3">
             <i className="ri-shopping-cart-fill text-2xl" />
             <span className="badge badge-sm indicator-item absolute rounded-full w-7 h-5 -mx-3 -my-3 bg-yellow-200 text-black">
-              <h1 className="mx-2 -my-1">{cart.length}</h1>
+              <h1 className="mx-2 -my-1">
+                {
+                  cart.filter((item)=>item.quantity>0).length
+                }
+              </h1>
             </span>
           </div>
           <div className="w-10 h-10 rounded-full bg-red-500 overflow-hidden">

@@ -17,12 +17,12 @@ const AddProducts = () => {
     });
 
   return (
-    <div className="  shadow-slate-700 border border-gray-100 h-[68%] w-80 rounded shadow-md">
-      <h4 className="flex justify-center text-black font-semibold text-xl shadow-slate-400 shadow-sm">
+    <div className="  shadow-slate-700  h-[68%] w-80 rounded shadow-md">
+      <h4 className="flex justify-center text-black font-semibold text-xl shadow-slate-100 shadow-lg">
         Add New Products
       </h4>
       <form
-        className="space-y-4 text-blue-500 bg-white border border-gray-400 shadow-slate-400 shadow-sm"
+        className="space-y-4 text-blue-500 bg-white shadow-slate-400 shadow-sm"
         onSubmit={handle()}
         autoComplete="off"
       >

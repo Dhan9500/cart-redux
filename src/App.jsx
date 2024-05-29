@@ -5,7 +5,7 @@ import store from './redux/Store';
 function App() {
   return (
     <Provider store={store}>
-      <div className="w-full h-screen">
+      <div className="w-full h-screen bg-white">
         <Navbar />
         <Page />
       </div>

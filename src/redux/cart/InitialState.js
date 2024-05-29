@@ -1,1 +1,1 @@
-export const cartInitialState=[];
+export const cartInitialState = [];

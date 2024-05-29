@@ -6,10 +6,10 @@ export const addProducts=(products)=>{
         payload:products
     }
 }
-export const increaseQTY=(products)=>{
+export const increaseQTY=(item)=>{
     return{
         type:INCREASE_QTY,
-        payload:products
+        payload:item
     }
 }
 
